@@ -1,84 +1,83 @@
-
-read_file = open('../assets/3000.lst')
-
-st = set(read_file.readlines())
-read_file.close()
-
-sorted_set = sorted(st)
-count = 0
-
-def binarySort(word, l, h, count=0):
-	''' Check if word is in file(lexicograhically sorted)
-	return:-
-		0 : false
-		1 : true
-	 '''
-	global sorted_set
+import requests
+from bs4 import BeautifulSoup as bs 
+from urllib import request
+from urllib.error import URLError, HTTPError
+import re
+from typing import List
 
 
-	searched = set()
-	
-	mid = (l+h)//2
+class AppURLopener(request.FancyURLopener): # else can't scrape oxfordlearnersdictionaries.com
+    version = "Mozilla/5.0"
 
-	if l > h:
-		print("Couldn't find it")
-		return
 
-	word2 = sorted_set[mid].strip()
+class OxfordScraper:
 
-	try:
-		if word2[count] > word[count]:
-			binarySort(word, l, mid, count)
+	def __init__(self):
+		self.titles = []
+		self.words = []
+		self.opener = AppURLopener()
 
-		elif word2[count] < word[count]:
-			binarySort(word, mid, h, count)
 
-		else:
-			print(l, mid, h, word, word2)
+	def driver(self):
+		for title in self.getTitle():
+			print('working ', title)
+			self.scrapeWords(title) # first page
 
-			if word==word2:
-				print("Found")
-				return
+			for page_url in self.getPagesList(title): # pages from 2
 
-			while word[count]==word2[count] and count < len(word2):
-				count += 1
+				print('working', page_url)
+				self.scrapeWords(page_url)
 
-			print(count)
-
-			if word[count-1] == word2[count-1] and count == len(word2):
-				# word > word2
-				if len(word)>len(word2) and count == len(word2):
-					l += 1
-
-				# word < word2
-				elif len(word)<len(word2) and count == len(word2):
-					h -= 1
-
-				# breakpoint()
-			if len(word)>len(word2):
-				elif word[count]>word2[count]:
-					l = mid
-				else:
-					print(count, word2)
-					h = mid
-
-			binarySort(word, l, h)
+				print(page_url, ' done')
+				self.writeInFile(self.words)	# write list text to file
+				self.words = []
 
 
 
-	except Exception as e:
-		print(e)
-		print("coulndn't find it")
+	def getTitle(self):
+		url = 'https://www.oxfordlearnersdictionaries.com/wordlist/american_english/oxford3000/Oxford3000_A-B/'
+		response = self.opener.open(url)
+		bs_obj = bs(response, 'lxml')
+		res = bs_obj.find_all("ul", {"class" : "hide_phone"})
+
+		if res:
+			res = str(res[0])
 
 
+		self.titles = re.findall(r'href="(.*)"', res)
+		self.titles.insert(0, url)
 
-def createData():
-	with open('../assets/3000.lst', 'w+') as f:
-		for word in sorted_set:
-			f.write(word)
-
+		return sorted(self.titles)
 
 
+	def getPagesList(self, link:str):
+		response = self.opener.open(link)
+		bs_obj = bs(response, 'lxml')
+		# print(bs_obj)
+		results = bs_obj.find_all("div", class_="outer")
+		# print(results)
+		if results:
+			results = re.findall(r'href="(.*)"', str(results[0]))
 
-binarySort('hello', 0, 20000)
-# print('m'>'l')
+		# print(results)
+
+		return sorted(set(results))
+
+
+	def scrapeWords(self, link):
+		response = self.opener.open(link)
+		bs_obj = bs(response, 'lxml')
+		# print(bs_obj)
+		results = bs_obj.find_all("ul", class_="wordlist-oxford3000")
+		# print(results)
+
+		for i in results[0].find_all('li'):
+			# print(i)
+			if(i.a):
+				self.words.append(i.a.text.strip())
+
+	def writeInFile(self, words:List, file='3000.txt'):
+		with open(file, 'a+') as f:
+			for i in words:
+				f.write(i+'\n')
+

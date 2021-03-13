@@ -3,6 +3,9 @@ import json
 
 
 def successful(file, word, pro, mean):
+	with open('assets/learned.txt', 'a+') as f:
+		f.write(word+'\n')
+
 	with open(file, 'a+') as f:
 		
 		text = f'''

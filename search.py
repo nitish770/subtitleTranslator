@@ -33,9 +33,9 @@ def getMeaning(word):
 
 	if r.status_code == 200:
 		# print("text \n" + r.text)
-		count = 1
 
-		pronounce = ptrn_pronounce.findall(r.text)
+		count = 1
+		pronounce  = ptrn_pronounce.findall(r.text)
 		pronounce_ = [i[2:-1] for i in pronounce]
 
 		print("Pronunciation : ")
@@ -59,4 +59,4 @@ def getMeaning(word):
 
 				
 	else:
-		print('Word not found')
+		print('Couldn\'t found ', word)

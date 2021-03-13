@@ -1,0 +1,377 @@
+
+phone :  {
+		 "Pronunciation" :  ['fōn', 'foʊn', 'fōn', 'foʊn', 'fōn', 'foʊn'], 
+
+		 "Meaning" : [
+			1. a telephone
+			2. headphones or earphones.
+			3. call someone on the phone
+			4. a speech sound; the smallest discrete segment of sound in a stream of speech.
+			
+		]
+}
+
+
+man :  {
+		 "Pronunciation" :  ['men', 'mɛn', 'man', 'mæn', 'man', 'mæn', 'man', 'mæn'], 
+
+		 "Meaning" : [
+			1. an adult male human being
+			2. a male member of a workforce, team, etc.
+			3. ordinary members of the armed forces as distinct from the officers
+			4. a person's husband, boyfriend, or male lover
+			5. a male person associated with a particular place, activity, or occupation
+			6. a person with the qualities traditionally associated with males, such as bravery, spirit, or toughness
+			7. a male pursued or sought by another, especially in connection with a crime
+			8. a manservant or valet.
+			9. a vassal.
+			10. a human being of either sex; a person
+			11. human beings in general; the human race
+			12. a male individual; one
+			13. a type of prehistoric human named after the place where the remains were found
+			14. a group or person in a position of authority over others, such as a corporate employer or the police
+			15. white people collectively regarded as the controlling group in society
+			16. a figure or token used in playing a board game.
+			17. (of personnel) work at, run, or operate (a place or piece of equipment) or defend (a fortification)
+			18. provide someone to fill (a post or office)
+			19. fortify the spirits or courage of
+			20. used, irrespective of the sex of the person addressed, to express surprise, admiration, delight, etc., or for emphasis
+			
+		]
+}
+
+
+speaking :  {
+		 "Pronunciation" :  ['ˈspēkiNG', 'ˈspikɪŋ', 'ˈspēkiNG', 'ˈspikɪŋ'], 
+
+		 "Meaning" : [
+			1. the action of conveying information or expressing one's thoughts and feelings in spoken language
+			2. the activity of delivering speeches or lectures
+			3. used for or engaged in speech
+			4. able to communicate in a specified language
+			5. conveying meaning as though in words
+			6. (of a portrait) so like the subject as to seem to be alive and capable of speech
+			
+		]
+}
+
+
+Spanish :  {
+		 "Pronunciation" :  ['ˈspaniSH', 'ˈspænɪʃ', 'ˈspaniSH', 'ˈspænɪʃ'], 
+
+		 "Meaning" : [
+			1. relating to Spain, its people, or its language.
+			2. the people of Spain.
+			3. a Romance language spoken in Spain and in much of Central and South America (except Brazil) and several other countries. It is the second most widely spoken first language in the world, with more than 400 millon speakers.
+			
+		]
+}
+
+
+What :  {
+		 "Pronunciation" :  ['(h)wət', '(h)wət', '(h)wät', '(h)wɑt', '(h)wət', '(h)wət', '(h)wät', '(h)wɑt', '(h)wət', '(h)wət', '(h)wät', '(h)wɑt'], 
+
+		 "Meaning" : [
+			1. asking for information specifying something
+			2. asking for repetition of something not heard or confirmation of something not understood
+			3. the thing or things that (used in specifying something)
+			4. (referring to the whole of an amount) whatever
+			5. who or that
+			6. (in exclamations) emphasizing something surprising or remarkable
+			7. asking for information specifying something
+			8. (referring to the whole of an amount) whatever
+			9. (in exclamations) how great or remarkable
+			10. to what extent?
+			11. used to indicate an estimate or approximation
+			12. used for emphasis or to invite agreement
+			
+		]
+}
+
+
+s :  {
+		 "Pronunciation" :  ['esiz', 'es', 'ɛs', 'es', 'ɛs', 'es', 'ɛs', 'es', 'es'], 
+
+		 "Meaning" : [
+			1. the nineteenth letter of the alphabet.
+			2. denoting the next after R in a set of items, categories, etc.
+			3. a shape like that of a capital S
+			4. (chiefly in Catholic use) Saint
+			5. siemens.
+			6. small (as a clothes size).
+			7. South or Southern
+			8. Svedberg unit(s).
+			9. the chemical element sulfur.
+			10. entropy.
+			11. second(s).
+			12. section (of an act)
+			13. shilling(s).
+			14. singular.
+			15. solid.
+			16. (in genealogies) son(s)
+			17. succeeded.
+			18. denoting electrons and orbitals possessing zero angular momentum and total symmetry
+			19. (in mathematical formulae) distance.
+			
+		]
+}
+
+
+up :  {
+		 "Pronunciation" :  ['əp', 'əp', 'əp', 'əp', 'əp', 'əp', 'əp', 'əp', 'əp', 'əp'], 
+
+		 "Meaning" : [
+			1. toward a higher place or position
+			2. upstairs
+			3. (of the sun) visible in the sky after daybreak
+			4. expressing movement toward or position in the north
+			5. to or at a place perceived as higher
+			6. used as a command to a soldier or an animal to stand up and be ready to move or attack
+			7. (of food that has been eaten) regurgitated from the stomach
+			8. at or to a higher level of intensity, volume, or activity
+			9. at or to a higher price, value, or rank
+			10. winning or at an advantage by a specified margin
+			11. to the place where someone is
+			12. toward or in the capital or a major city
+			13. at or to a university, especially Oxford or Cambridge
+			14. into the desired or a proper condition
+			15. so as to be finished or closed
+			16. into a happy mood
+			17. out of bed
+			18. displayed on a bulletin board or other publicly visible site
+			19. (of sailing) against the current or the wind
+			20. (of a ship's helm) moved so that the rudder is to leeward.
+			21. at bat
+			22. from a lower to a higher point on (something); upward along
+			23. from one end to another of (a street or other area), not necessarily on an upward slope
+			24. to a higher part of (a river or stream), away from the sea
+			25. directed or moving toward a higher place or position
+			26. at an end
+			27. (of a computer system or industrial process) functioning properly
+			28. in a cheerful mood; ebullient
+			29. (of a jockey) in the saddle.
+			30. denoting a flavor (variety) of stable quark having relatively low mass and an electric charge of +2/3. In the Standard Model protons and neutrons are composed of up and down quarks.
+			31. a period of good fortune or positive mood
+			32. do something abruptly or boldly
+			33. cause (a level or amount) to be increased
+			34. lift (something) up
+			35. raise or pick up (something)
+			36. Upper Peninsula (of the state of Michigan)
+			37. Uttar Pradesh.
+			
+		]
+}
+
+
+Lizard :  {
+		 "Pronunciation" :  ['ˈlizərd', 'ˈlɪzərd', 'ˈlizərd', 'ˈlɪzərd'], 
+
+		 "Meaning" : [
+			1. a reptile that typically has a long body and tail, four legs, movable eyelids, and a rough, scaly, or spiny skin.
+			2. a promontory in southwestern England, in Cornwall. Its southern tip, Lizard Point, is the southernmost point of the British mainland.
+			
+		]
+}
+
+
+speaking :  {
+		 "Pronunciation" :  ['ˈspēkiNG', 'ˈspikɪŋ', 'ˈspēkiNG', 'ˈspikɪŋ'], 
+
+		 "Meaning" : [
+			1. the action of conveying information or expressing one's thoughts and feelings in spoken language
+			2. the activity of delivering speeches or lectures
+			3. used for or engaged in speech
+			4. able to communicate in a specified language
+			5. conveying meaning as though in words
+			6. (of a portrait) so like the subject as to seem to be alive and capable of speech
+			
+		]
+}
+
+
+Spanish :  {
+		 "Pronunciation" :  ['ˈspaniSH', 'ˈspænɪʃ', 'ˈspaniSH', 'ˈspænɪʃ'], 
+
+		 "Meaning" : [
+			1. relating to Spain, its people, or its language.
+			2. the people of Spain.
+			3. a Romance language spoken in Spain and in much of Central and South America (except Brazil) and several other countries. It is the second most widely spoken first language in the world, with more than 400 millon speakers.
+			
+		]
+}
+
+
+Lizard :  {
+		 "Pronunciation" :  ['ˈlizərd', 'ˈlɪzərd', 'ˈlizərd', 'ˈlɪzərd'], 
+
+		 "Meaning" : [
+			1. a reptile that typically has a long body and tail, four legs, movable eyelids, and a rough, scaly, or spiny skin.
+			2. a promontory in southwestern England, in Cornwall. Its southern tip, Lizard Point, is the southernmost point of the British mainland.
+			
+		]
+}
+
+
+speaking :  {
+		 "Pronunciation" :  ['ˈspēkiNG', 'ˈspikɪŋ', 'ˈspēkiNG', 'ˈspikɪŋ'], 
+
+		 "Meaning" : [
+			1. the action of conveying information or expressing one's thoughts and feelings in spoken language
+			2. the activity of delivering speeches or lectures
+			3. used for or engaged in speech
+			4. able to communicate in a specified language
+			5. conveying meaning as though in words
+			6. (of a portrait) so like the subject as to seem to be alive and capable of speech
+			
+		]
+}
+
+
+Spanish :  {
+		 "Pronunciation" :  ['ˈspaniSH', 'ˈspænɪʃ', 'ˈspaniSH', 'ˈspænɪʃ'], 
+
+		 "Meaning" : [
+			1. relating to Spain, its people, or its language.
+			2. the people of Spain.
+			3. a Romance language spoken in Spain and in much of Central and South America (except Brazil) and several other countries. It is the second most widely spoken first language in the world, with more than 400 millon speakers.
+			
+		]
+}
+
+
+Lizard :  {
+		 "Pronunciation" :  ['ˈlizərd', 'ˈlɪzərd', 'ˈlizərd', 'ˈlɪzərd'], 
+
+		 "Meaning" : [
+			1. a reptile that typically has a long body and tail, four legs, movable eyelids, and a rough, scaly, or spiny skin.
+			2. a promontory in southwestern England, in Cornwall. Its southern tip, Lizard Point, is the southernmost point of the British mainland.
+			
+		]
+}
+
+
+going :  {
+		 "Pronunciation" :  ['ˈɡōiNG', 'ˈɡoʊɪŋ', 'ˈɡōiNG', 'ˈɡoʊɪŋ'], 
+
+		 "Meaning" : [
+			1. an act or instance of leaving a place; a departure
+			2. the condition of the ground viewed in terms of suitability for walking, riding, or other travel (used especially in the context of horse racing)
+			3. progress affected by travelling conditions
+			4. conditions for, or progress in, an endeavor
+			5. existing or available; to be had
+			6. (especially of a price) generally accepted as fair or correct; current
+			
+		]
+}
+
+
+speaking :  {
+		 "Pronunciation" :  ['ˈspēkiNG', 'ˈspikɪŋ', 'ˈspēkiNG', 'ˈspikɪŋ'], 
+
+		 "Meaning" : [
+			1. the action of conveying information or expressing one's thoughts and feelings in spoken language
+			2. the activity of delivering speeches or lectures
+			3. used for or engaged in speech
+			4. able to communicate in a specified language
+			5. conveying meaning as though in words
+			6. (of a portrait) so like the subject as to seem to be alive and capable of speech
+			
+		]
+}
+
+
+Spanish :  {
+		 "Pronunciation" :  ['ˈspaniSH', 'ˈspænɪʃ', 'ˈspaniSH', 'ˈspænɪʃ'], 
+
+		 "Meaning" : [
+			1. relating to Spain, its people, or its language.
+			2. the people of Spain.
+			3. a Romance language spoken in Spain and in much of Central and South America (except Brazil) and several other countries. It is the second most widely spoken first language in the world, with more than 400 millon speakers.
+			
+		]
+}
+
+
+speaking :  {
+		 "Pronunciation" :  ['ˈspēkiNG', 'ˈspikɪŋ', 'ˈspēkiNG', 'ˈspikɪŋ'], 
+
+		 "Meaning" : [
+			1. the action of conveying information or expressing one's thoughts and feelings in spoken language
+			2. the activity of delivering speeches or lectures
+			3. used for or engaged in speech
+			4. able to communicate in a specified language
+			5. conveying meaning as though in words
+			6. (of a portrait) so like the subject as to seem to be alive and capable of speech
+			
+		]
+}
+
+
+speaking :  {
+		 "Pronunciation" :  ['ˈspēkiNG', 'ˈspikɪŋ', 'ˈspēkiNG', 'ˈspikɪŋ'], 
+
+		 "Meaning" : [
+			1. the action of conveying information or expressing one's thoughts and feelings in spoken language
+			2. the activity of delivering speeches or lectures
+			3. used for or engaged in speech
+			4. able to communicate in a specified language
+			5. conveying meaning as though in words
+			6. (of a portrait) so like the subject as to seem to be alive and capable of speech
+			
+		]
+}
+
+
+Spanish :  {
+		 "Pronunciation" :  ['ˈspaniSH', 'ˈspænɪʃ', 'ˈspaniSH', 'ˈspænɪʃ'], 
+
+		 "Meaning" : [
+			1. relating to Spain, its people, or its language.
+			2. the people of Spain.
+			3. a Romance language spoken in Spain and in much of Central and South America (except Brazil) and several other countries. It is the second most widely spoken first language in the world, with more than 400 millon speakers.
+			
+		]
+}
+
+
+speaking :  {
+		 "Pronunciation" :  ['ˈspēkiNG', 'ˈspikɪŋ', 'ˈspēkiNG', 'ˈspikɪŋ'], 
+
+		 "Meaning" : [
+			1. the action of conveying information or expressing one's thoughts and feelings in spoken language
+			2. the activity of delivering speeches or lectures
+			3. used for or engaged in speech
+			4. able to communicate in a specified language
+			5. conveying meaning as though in words
+			6. (of a portrait) so like the subject as to seem to be alive and capable of speech
+			
+		]
+}
+
+
+speaking :  {
+		 "Pronunciation" :  ['ˈspēkiNG', 'ˈspikɪŋ', 'ˈspēkiNG', 'ˈspikɪŋ'], 
+
+		 "Meaning" : [
+			1. the action of conveying information or expressing one's thoughts and feelings in spoken language
+			2. the activity of delivering speeches or lectures
+			3. used for or engaged in speech
+			4. able to communicate in a specified language
+			5. conveying meaning as though in words
+			6. (of a portrait) so like the subject as to seem to be alive and capable of speech
+			
+		]
+}
+
+
+Spanish :  {
+		 "Pronunciation" :  ['ˈspaniSH', 'ˈspænɪʃ', 'ˈspaniSH', 'ˈspænɪʃ'], 
+
+		 "Meaning" : [
+			1. relating to Spain, its people, or its language.
+			2. the people of Spain.
+			3. a Romance language spoken in Spain and in much of Central and South America (except Brazil) and several other countries. It is the second most widely spoken first language in the world, with more than 400 millon speakers.
+			
+		]
+}
+
