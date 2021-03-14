@@ -3,7 +3,6 @@ import bs4
 import search as srch
 import sys
 import time
-import multiprocessing
 import helpers.logger
 import helpers.isBasic as basic
 

@@ -2,6 +2,14 @@ import re
 import requests
 from helpers.logger import *
 import random
+from configparser import ConfigParser
+
+
+def getToken(file="config.py"):
+	from config import keys
+	return random.choices(keys)
+
+
 
 def randomColor():
 	colors = {
@@ -11,9 +19,10 @@ def randomColor():
 		'LIGHTWHITE_EX': '\x1b[97m', 'LIGHTYELLOW_EX': '\x1b[93m',
 		'MAGENTA': '\x1b[35m', 'RED': '\x1b[31m', 'RESET': '\x1b[39m', 'WHITE': '\x1b[37m',
 		'YELLOW': '\x1b[33m'
-			}
+		}
 
 	return colors[random.choices([i for i in colors.keys()])[0]]
+
 
 def resetColor():
 	print('\x1b[97m')
@@ -33,11 +42,9 @@ def getMeaning(word):
 	ptrn_mean  = re.compile(r'definitions": \[\s*(.*)', re.M)
 
 	# temp api
-	keys = [['c7b3ae10', 'c8c2609d9aafa94be8806a440df78784'],
-			
-			]
+	key = getToken()
 
-	app_id , app_key = keys[0]
+	app_id , app_key = key[0]
 
 	language = 'en-us'
 

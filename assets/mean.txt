@@ -564,3 +564,38 @@ opener :  {
 		]
 }
 
+
+turning :  {
+		 "Pronunciation" :  ['ˈtərniNG', 'ˈtərnɪŋ'], 
+
+		 "Meaning" : [
+			1. a place where a road branches off another
+			2. the action or skill of using a lathe.
+			3. shavings of wood or metal resulting from turning something on a lathe.
+			
+		]
+}
+
+
+being :  {
+		 "Pronunciation" :  ['ˈbiɪŋ', 'ˈbēiNG'], 
+
+		 "Meaning" : [
+			1. existence
+			2. being alive; living
+			3. the nature or essence of a person
+			4. a real or imaginary living creature or entity, especially an intelligent one
+			
+		]
+}
+
+
+dickensian :  {
+		 "Pronunciation" :  ['dəˈkenzēən', 'dəˈkɛnziən'], 
+
+		 "Meaning" : [
+			1. of or reminiscent of the novels of Charles Dickens, especially in suggesting the poor social conditions or comically repulsive characters that they portray
+			
+		]
+}
+
