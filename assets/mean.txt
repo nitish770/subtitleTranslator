@@ -385,3 +385,182 @@ lime :  {
 		]
 }
 
+
+were :  {
+		 "Pronunciation" :  ['wər'], 
+
+		 "Meaning" : [
+			
+		]
+}
+
+
+looking :  {
+		 "Pronunciation" :  ['ˈlʊkɪŋ', 'ˈlo͝okiNG'], 
+
+		 "Meaning" : [
+			1. having a specified appearance
+			
+		]
+}
+
+
+magnetic :  {
+		 "Pronunciation" :  ['maɡˈnedik', 'mæɡˈnɛdɪk'], 
+
+		 "Meaning" : [
+			1. exhibiting or relating to magnetism
+			2. capable of being attracted by or acquiring the properties of a magnet
+			3. (of a bearing in navigation) measured relative to magnetic north.
+			4. very attractive or alluring
+			
+		]
+}
+
+
+finding :  {
+		 "Pronunciation" :  ['ˈfīndiNG', 'ˈfaɪndɪŋ'], 
+
+		 "Meaning" : [
+			1. the action of finding someone or something
+			2. a conclusion reached as a result of an inquiry, investigation, or trial
+			3. small articles or tools used in making garments, shoes, or jewelry.
+			
+		]
+}
+
+
+acting :  {
+		 "Pronunciation" :  ['ˈaktiNG', 'ˈæktɪŋ'], 
+
+		 "Meaning" : [
+			1. the art or occupation of performing in plays, movies, or television productions
+			2. temporarily doing the duties of another person
+			
+		]
+}
+
+
+obnoxious :  {
+		 "Pronunciation" :  ['əbˈnäkSHəs', 'əbˈnɑkʃəs'], 
+
+		 "Meaning" : [
+			1. extremely unpleasant
+			
+		]
+}
+
+
+dictator :  {
+		 "Pronunciation" :  ['ˈdɪkˌteɪdər', 'ˈdikˌtādər'], 
+
+		 "Meaning" : [
+			1. a ruler with total power over a country, typically one who has obtained control by force.
+			2. a person who behaves in an autocratic way.
+			3. (in ancient Rome) a chief magistrate with absolute power, appointed in an emergency.
+			
+		]
+}
+
+
+gonna :  {
+		 "Pronunciation" :  ['ˈɡənə', 'ˈɡɔnə', 'ˈɡônə'], 
+
+		 "Meaning" : [
+			1. going to
+			
+		]
+}
+
+
+added :  {
+		 "Pronunciation" :  ['ˈadəd', 'ˈædəd'], 
+
+		 "Meaning" : [
+			1. denoting an increased or enhancing quality or factor
+			2. denoting an additional element, ingredient, etc.
+			
+		]
+}
+
+
+colon :  {
+		 "Pronunciation" :  ['-ˈlōˌnās', 'ˈkōlən', 'kəˈlōn', 'kəˈloʊn', 'ˈkoʊlən'], 
+
+		 "Meaning" : [
+			1. a punctuation mark (:) used to precede a list of items, a quotation, or an expansion or explanation.
+			2. a colon used in various technical and formulaic contexts, for example a statement of proportion between two numbers, or to separate hours from minutes (and minutes from seconds) in a numerical statement of time
+			3. the number of the chapter and verse respectively in biblical references
+			4. the main part of the large intestine, which passes from the cecum to the rectum and absorbs water and electrolytes from food that has remained undigested. Its parts are called the ascending, transverse, descending, and sigmoid colon.
+			5. the chief port of Panama, at the Caribbean Sea end of the Panama Canal; population 87,800 (est. 2009).
+			6. the basic monetary unit of Costa Rica and El Salvador, equal to 100 centimos in Costa Rica and 100 centavos in El Salvador.
+			
+		]
+}
+
+
+actuality :  {
+		 "Pronunciation" :  ['ˌæk(t)ʃəˈwælədi', 'ˌak(t)SHəˈwalədē'], 
+
+		 "Meaning" : [
+			1. actual existence, typically as contrasted with what was intended, expected, or believed
+			2. existing conditions or facts
+			
+		]
+}
+
+
+paradigm :  {
+		 "Pronunciation" :  ['ˈperəˌdīm', 'ˈpɛrəˌdaɪm'], 
+
+		 "Meaning" : [
+			1. a typical example or pattern of something; a model
+			2. a worldview underlying the theories and methodology of a particular scientific subject
+			3. a set of linguistic items that form mutually exclusive choices in particular syntactic roles
+			4. (in the traditional grammar of Latin, Greek, and other inflected languages) a table of all the inflected forms of a particular verb, noun, or adjective, serving as a model for other words of the same conjugation or declension.
+			
+		]
+}
+
+
+shifting :  {
+		 "Pronunciation" :  ['ˈSHiftiNG', 'ˈʃɪftɪŋ'], 
+
+		 "Meaning" : [
+			1. changing, especially unpredictably
+			
+		]
+}
+
+
+static :  {
+		 "Pronunciation" :  ['ˈstædɪk', 'ˈstadik'], 
+
+		 "Meaning" : [
+			1. lacking in movement, action, or change, especially in a way viewed as undesirable or uninteresting
+			2. (of a process or variable) not able to be changed during a set period, for example while a program is running.
+			3. concerned with bodies at rest or forces in equilibrium.
+			4. acting as weight but not moving.
+			5. relating to statics.
+			6. (of an electric charge) having gathered on or in an object that cannot conduct a current
+			7. (of a memory or store) not needing to be periodically refreshed by an applied voltage.
+			8. crackling or hissing noises on a telephone, radio, or other telecommunications system
+			9. angry or critical talk or behavior
+			
+		]
+}
+
+
+opener :  {
+		 "Pronunciation" :  ['ˈoʊp(ə)nər', 'ˈōp(ə)nər'], 
+
+		 "Meaning" : [
+			1. a device for opening something, especially a container
+			2. the first of a series of games, cultural events, etc.
+			3. the first point or points scored in a sports event.
+			4. a remark used as an excuse to initiate a conversation
+			5. (in poker) a hand of sufficient value to allow the opening of betting.
+			
+		]
+}
+
