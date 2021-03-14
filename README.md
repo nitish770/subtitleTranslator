@@ -9,7 +9,7 @@
 ![Sample image](assets/oxfordApi.png)
 
 - put app id and app keys in conf.py file's dictionary
-- That's it for all. Run file now
+- That's it all. Run file now
 
 
 ```
