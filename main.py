@@ -22,14 +22,20 @@ def extract(file):
 
 		for line in lines:
 			words = returnWord(line.strip())
-			for word in words:  
+			# print(words)
+			# return 
+			for word in words:
+				word = word.lower().strip()
 				# print(word)
-				res = basic.binarySort(word.lower(), 0, basic.getLen())
-				# print(res)
-				if not res:
-					print('\n\nsearching', word)
-					srch.getMeaning(word)
+				learned = basic.isLearned(word)
+				bad_word = basic.BadWord(word)
+				# print(learned)
+				if (not learned) and (not bad_word):
 					# print(word)
+					common = basic.binarySort(word, 0, basic.getLen())
+					if not common:
+						print('\n\nsearching', word)
+						srch.getMeaning(word)
 				
 
 if __name__ == '__main__':

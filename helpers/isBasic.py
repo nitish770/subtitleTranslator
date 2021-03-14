@@ -1,6 +1,8 @@
 
 mid_ = 0
 mutex = 1
+file = open('assets/3000.txt', 'r+')
+
 
 def getLen():
 	return h
@@ -14,11 +16,10 @@ def binarySort(word, l, h, count=0):
 
 	global mutex
 
+	# run isLearned function only once
 	if mutex and isLearned(word):
 		mutex = 0
 		return 1
-
-	# if mutex:
 
 
 	global mid_
@@ -33,9 +34,6 @@ def binarySort(word, l, h, count=0):
 
 
 	# checking for valid word
-	 
-
-
 	if word == '' or word == ' ':
 		# print('"', word, '" not valid word')
 		return 0
@@ -64,20 +62,20 @@ def binarySort(word, l, h, count=0):
 
 
 			# check if one of words is exhausted
-			if count == len(word):
+			if count == len(word) :
 				# word < word2
 				h = mid
 
-			elif count == len(word2):
+			elif count == len(word2) :
 				# word > word2
 				l = mid
-			
-			elif word[count]>word2[count]:
-				l = mid
 
-			else:
+			elif word[count]<word2[count]:
 				h = mid
 
+			else:
+				l = mid
+			
 			return binarySort(word, l, h)
 		return 1
 
@@ -89,25 +87,28 @@ def binarySort(word, l, h, count=0):
 		file.close()
 
 
-def isLearned(word):
-	# print('word in learned', word)
+def isLearned(word, file='assets/learned.txt'):
+	file1 = open(file, 'r+')
 	words = file1.readlines()
-	print(words)
-	if word+'\n' in words:
-		print(word)
-		return 1
+	file1.close()
+
+	for wrd in words:
+		# print('wrod', wrd)
+		if wrd.strip() == word:
+			# print(wrd, word)
+			return 1
 	return 0
 
 
-if __name__ == '__main__':
-	file = open('../assets/3000.txt', 'r+')
-	file1 = open('../assets/learned.txt', 'r+')
-else:
-	file = open('assets/3000.txt', 'r+') # it'll be open from main.py so curdir = ../
-	file1 = open('assets/learned.txt', 'r+')
-
-
+def BadWord(word, file='assets/log.log'):
+	with open(file, 'r+') as f:
+		lines = f.readlines()
+		for line in lines:
+			if line.strip() == word:
+				return 1
+	return 0
+	
 
 words_data = file.readlines()
 h = len(words_data)
-
+# print(binarySort('phonei', 0, getLen()))

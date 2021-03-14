@@ -2,7 +2,7 @@ import logging
 import json
 
 
-def successful(file, word, pro, mean):
+def successful(word, pro, mean, file='assets/mean.txt'):
 	with open('assets/learned.txt', 'a+') as f:
 		f.write(word+'\n')
 
@@ -16,5 +16,9 @@ def successful(file, word, pro, mean):
 			text += str(i+1) + ". " + mean[i] + '\n\t\t\t'
 
 		text += '\n\t\t]\n}\n\n'
-
 		f.write(text)
+
+
+def unSuccessful(word, file='assets/log.log'):
+	with open(file, 'a+') as f:
+		f.write(word+'\n')
